@@ -1,0 +1,809 @@
+
+
+
+
+
+
+ans 1:
+import java.util.Scanner;
+public class LargestNumfinder{
+public static void main(String[]args){
+int a[]= new int(2);
+Scanner s = new Scanner(System.in);
+System.out.print("enter two numbers");
+for(int i=0; i<a.length(); i++){
+a = s.nextInt();
+};
+if(a[0]< a[1]){
+System.out.print(a[1]);}
+
+}}
+
+ans 2:
+import java.util.Scanner;
+public class OddEvenNumfinder{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter any number");
+int  a = sc.nextInt();
+if(a % 2 == 0){
+System.out.println("even");}
+else 
+System.out.println("odd");
+}}
+
+ans 3:
+import java.util.Scanner;
+public class Numfinder{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter any number");
+int  a = sc.nextInt();
+if(a % 5== 0){
+System.out.println("factor of 5 ");}
+else 
+System.out.println("not divisible by 5");
+}}
+
+
+ans 4:
+import java.util.Scanner;
+public class Numfinder{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter any number");
+int  a = sc.nextInt();
+if(a % 2 == 0 && a%5 == 0){
+System.out.println("even and divisible by 5");}
+else 
+System.out.println("may be odd and if not is a factor of 5");
+}}
+
+
+
+
+
+
+
+ans 5:
+import java.util.Scanner;
+public class CaseChecker{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter any character");
+char a = sc.nextLine().charAt(0);
+char b = a.toUpperCase();
+if(a.equals(b)){
+System.out.println("UpperCase");
+}
+else 
+System.out.println("LowerCase");
+
+}}
+
+ans 6:
+import java.util.Scanner;
+public class CaseChecker{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter any character");
+char a = sc.nextLine().charAt(0);
+char b = a.toUpperCase();
+
+System.out.println(b);
+
+
+}}
+
+
+
+
+ans 7:
+import java.util.Scanner;
+	public class TaxCalculator{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter your income amount");
+int  price = sc.nextInt();
+int tax;
+int taxableAmount;
+
+if(price<=100000){
+ taxableAmount =  + 0;
+
+System.out.println("your taxableAmount is" + taxableAmount);
+}
+elseif(price>100000 && price< 150000){
+taxableAmount = (10/100*price)+ 5000;
+System.out.println("your taxableAmount is"+ taxableAmount);
+}
+else{
+taxableAmount = 	(30/100*price)+ 25,000;
+ystem.out.println("your taxableAmount is "+ taxableAmount);}
+
+
+}}
+
+
+ans 8:
+import java.util.Scanner;
+
+public class LeapYearfinder{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter year");
+int  a = sc.nextInt();
+if(a % 4== 0){
+   if(a!%100==0){
+   System.out.println("leap year");
+   }
+   elseif(a % 400 == 0){
+   System.out.println("leap year");
+   
+   }
+   }
+   else{
+   System.out.println("not a leap year");}
+   }}
+   
+   
+   ans 9:
+   
+   import java.util.Scanner;
+
+	public class NetAmountCalculator{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("what do you want to buy");
+String cat = sc.nextLine();
+System.out.println("enter the price amount range");
+int  price = sc.nextInt();
+int price;
+int discount;
+int netAmount;
+ if(cat == "laptop"){
+
+
+if(price<=25000){
+ discount = 0;
+ netAmount = price - discount;
+
+System.out.println("your netAmount is  + netAmount);
+}
+elseif(price>25000 && price<=57000){
+discount = 5/100*price;
+netAmount = price - discount;
+System.out.println("your netAmount is"+ netAmount);
+}
+elseif(price >57000 && price <= 100000){
+discount = 7.5/100*price;
+netAmount = price - discount;
+System.out.println("your netAmount is"+ netAmount);
+}
+else{
+discount = 10/100*price;
+netAmount = price - discount;
+System.out.println("your taxableAmount is"+ taxableAmount);}
+}
+
+
+else{
+if(price<=25000){
+ discount =  5/100*price;;
+ netAmount = price - discount;
+
+System.out.println("your netAmount is  + netAmount);
+}
+elseif(price>25000 && price<=57000){
+discount = 7.5/100*price;
+netAmount = price - discount;
+System.out.println("your netAmount is"+ netAmount);
+}
+elseif(price >57000 && price <= 100000){
+discount = 10/100*price;
+netAmount = price - discount;
+System.out.println("your netAmount is"+ netAmount);
+}
+else{
+discount = 15/100*price;
+netAmount = price - discount;
+System.out.println("your taxableAmount is"+ taxableAmount);}
+}
+}
+}
+
+
+
+
+ans 10:
+	
+import java.util.Scanner;
+	public class AreaCalculator{
+public static void main(String[]args){
+Scanner sc = new Scanner(System.in);
+
+System.out.println("what do you want to find the area of betweeen 1. Rectangle 2. circle 3. square?");
+
+String a = sc.nextLine();
+
+switch(a){
+
+case "rectangle":
+System.out.println("length*breadth");
+break;
+
+case "square":
+System.out.println("length*length");
+break;
+
+case "circle":
+System.out.println("Math.pow(radius, 2)*Math.pi"); 
+break;
+
+
+}
+}}
+
+
+
+ans 11.
+
+public class Ascending{
+public static void main(String[]args){
+
+int a = 15; b = 2 ; c = 8;
+int d[] = new int(3);
+d = {a,b,c};
+for (int i = 0; i < n; i++) 
+        {
+            for (int j = i + 1; j < n; j++) 
+            {
+                if (d[i] > d[j]) 
+                {
+                    temp = d[i];
+                    d[i] = d[j];
+                    d[j] = temp;
+                }
+            }
+        }
+		
+		for(int i = 0; int< 3; i++){
+     System.out.print(d[i]+ ",")	;
+	 }
+
+
+
+}
+
+
+}}
+
+
+
+
+
+
+
+ans 12:
+import java.util.Scanner;
+public class WordChecker{
+public static void main(String[]args){
+Scanner sc =  new Scanner(System.in);
+System.out.println("enter any character");
+int  a = sc.nextLine().charAt(0);
+if(a <=0 || a>0){
+System.out.println("digit");}
+else 
+System.out.println("letter");
+}}
+
+
+ans 13:
+import java.util.Scanner;
+
+public class Reverse{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter any integer");
+int in = sc.nextInt();
+int temp = in;
+int n;
+int sum;
+int r;
+int reverse;
+while(temp!=0){
+temp = temp/10;
+r = temp%10;
+reverse += reverse*10+r;
+}
+System.out.println("reverse of the given integer is"+reverse);}}
+
+
+
+
+
+ans 14:
+import java.util.Scanner;
+public class SumCalculator{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter any integer");
+int in = sc.nextInt();
+
+int temp = in;
+int sum;
+int r;
+
+
+while(temp!=0){
+temp= temp/10;
+r = temp%10;
+sum = sum + r;
+System.out.println("the sum is" + sum);
+}
+}}
+
+
+
+
+
+
+
+ans 15:
+import java.util.Scanner;
+public class Palindrome{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter any integer");
+int in = sc.nextInt();
+Arraylist<int>ar = new Arraylist<int>();
+int arr[] = new int(n);
+int temp = in;
+int n;
+int sum;
+int r;
+int reverse;
+while(temp!=0){
+temp = temp/10;
+r = temp%10;
+reverse += reverse*10+r;
+}
+
+
+
+if(reverse == in )
+{
+System.out.println("number is palindrome");
+}
+}}
+
+ans 16:
+import java.util.Scanner;
+public class Armstrong{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter any integer");
+int in = sc.nextInt();
+int temp = in;
+int n;
+int sum;
+int r;
+
+while(temp!=0){
+temp = temp/10;
+n++;}
+
+
+while(temp!=0){
+temp= temp/10;
+r = temp%10;
+sum = sum + Math.pow(r, n)
+}
+if(sum== in )
+{
+System.out.println("number is armstrong");
+}
+
+}}
+
+ans 17:
+import java.util.Scanner;
+public class Absolute{
+public static void main(String[]args){
+Scanner sc = new Scanner(System.in);
+System.out.println("enter any integer");
+int in = sc.nextInt();
+if(in<0){
+in = -(in);
+}
+
+System.out.println(in);
+}}
+
+ans 18:
+import java.util.Scanner;
+public class Dayfinder{
+public static void main9String[]args){
+Scanner sc = new Scanner(System.in);
+/System.out.println("enter any integer other than 0");/
+int n = sc.nextInt();
+if(n == 0 ){
+System.out.println("enter any integer other than 0");}
+
+n = n%7;
+
+switch(n){
+
+case 0:
+System.out.println("saturday");
+break;
+
+case 1:
+System.out.println("sunday");
+
+case 2:
+System.out.println("monday");
+
+case 3:
+System.out.println("tuesday");
+
+case 4:
+System.out.println("wednesday");
+
+case 5:
+System.out.println("thursday");
+
+case 6:
+System.out.println("friday");
+}}}
+
+
+ans 19:
+import java.util.Scanner;
+public class Attendance{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter total no of classes held");
+int hd = sc.nextInt();
+System.out.println("enter total no of classes attended");
+int ad = sc.nextInt();
+
+int hdper = (ad/hd)*100%;
+
+if(hdper < 75%){
+System.out.println("did you have a medical cause. Write T if yes and N if no");
+String s = sc.nextLine();
+if(s == "T"){
+System.out.println("you are allowed in exam hall. Make sure to bring your medical report. ");
+}
+else{
+System.out.println("you aren't allowed in exam hall");
+}
+
+else{
+System.out.println("you are allowed in exam hall"
+}
+
+}}}
+
+
+ans 20:
+import java.util.Scanner;
+public class NatureOfRoots{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter three coefficients for quadratic equations");
+int a = sc.nextInt();
+int b = sc.nextInt();
+int c = sc.nextInt();
+
+int nat = Math.pow(b,2) - 4*a*c;
+
+if(nat < 0 ){
+System.out.println("roots are unequal imaginary.");}
+elseif(nat == 0){
+System.out.println("roots are equal and real");}
+else{
+System.out.println("roots are unequal and real");}
+
+
+
+}}
+
+
+ans 21:
+import java.util.Scanner;
+public class EqualDecimalDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter two floating numbers having more than 3 decimal digits");
+float fn = sc.nextFloat();
+float sn = sc.nextFloat();
+
+fn = fn *1000;
+sn = sn* 1000;
+
+if(fn == sn){
+System.out.println("numbers are equal");}
+
+
+
+
+}}
+
+
+ans 22:
+import java.util.Scanner;
+public class EqualDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter two  numbers having more than 3 digits");
+int fn = sc.nextint();
+int sn = sc.nextint();
+
+fn = fn%1000;
+sn = sn%1000;
+
+if(fn == sn){
+System.out.println("numbers are equal");}
+
+
+
+
+}}
+
+
+
+
+
+ans 23:
+
+import java.util.Scanner;
+public class EqualDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter two  numbers ");
+int fn = sc.nextint();
+int sn = sc.nextint();
+
+if(fn >sn)? fn:sn;
+}}
+
+
+ans 24:
+import java.util.Scanner;
+public class EqualDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter  number");
+
+int sn = sc.nextint();
+
+if(sn % 2 == 0)? "even":"odd";
+}}
+
+
+ans 25:
+import java.util.Scanner;
+public class EqualDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter  number");
+
+int sn = sc.nextint();
+
+String s = (sn % 5 == 0)? "divisible by 5":"not divisible by 5";
+System.out.println(s);
+
+}}
+
+
+
+ans 26:
+import java.util.Scanner;
+
+public class EqualDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter  number");
+
+int sn = sc.nextint();
+
+String s = (sn % 5 == 0 && sn%2 == 0)? "even divisible by 5":"not divisible by 5 or maynot be even";
+System.out.println(s);
+}}
+
+
+
+
+ans 27:
+import java.util.Scanner;
+public class EqualDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter  year");
+
+int yr = sc.nextint();
+
+String s =(yr%4==0 )? (yr%100!=0)?"leap year":(yr % 400 == 0)("this is leap year"): "not a leap yaer"
+ 
+
+}}
+
+
+
+
+
+
+
+
+
+ans 28:
+import java.util.Scanner;
+public class LargeDigits{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter  three numbers");
+
+int f = sc.nextint();
+int s = sc.nextint();
+int t = sc.nextint();
+
+int r = (f>s)? if(f>t)? f: t: if(s>t)? s : t ;
+ System.out.println(r);
+
+}}
+
+
+ans 29:
+import java.util.Scanner;
+public class MonthDays{
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter  any month number");
+
+int m = sc.nextint();
+
+System.out.println("enter  any year number");
+
+int y = sc.nextint();
+int lpy = 0;
+if(y%4==0){
+ if(y%100!=0){
+lpy = 1;}
+else(y%400==0){
+lpy = 1;}
+else{
+lpy =0;}
+
+if(lpy= 1){
+
+
+switch(m){
+
+case 1:
+System.out.println(y +"has" + 31+ "days");}
+break;
+case 2:
+System.out.println(y +"has" + 28+ "days");
+break;
+case 3:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 4:
+System.o8t.println(y +"has" + 30+ "days");
+break;
+case 5:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 6:
+System.out.println(y +"has" + 30+ "days");
+break;
+case 7:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 8:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 9:
+System.out.println(y +"has" + 30+ "days");
+break
+case 10:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 11:
+System.out.println(y +"has" + 30+ "days");
+break;
+case 12:
+System.out.println(y +"has" + 31+ "days");
+break;
+}
+
+else{
+case 1:
+System.out.println(y +"has" + 31+ "days");}
+break;
+case 2:
+System.out.println(y +"has" + 29+ "days");
+break;
+case 3:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 4:
+System.out.println(y +"has" + 30+ "days");
+break;
+case 5:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 6:
+System.out.println(y +"has" + 30+ "days");
+break;
+case 7:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 8:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 9:
+System.out.println(y +"has" + 30+ "days");
+break
+case 10:
+System.out.println(y +"has" + 31+ "days");
+break;
+case 11:
+System.out.println(y +"has" + 30+ "days");
+break;
+case 12:
+System.out.println(y +"has" + 31+ "days");
+break;
+}
+
+
+
+
+ 
+
+
+ans 30:
+
+import java.util.Scanner;
+public class EqualDigits{
+
+public static void main(String[]args){
+
+Scannner sc = new Scanner(System.in);
+System.out.println("enter  three sides of a triangle");
+
+int a = sc.nextint();
+int b = sc.nextint();
+int c= sc.nextint();
+
+if(c+a > b && a+b > c && b+c > a ){
+
+System.out.println("triangle is valid");}
+
+
+if(a==b && b==c){  
+System.out.println("triangle is eqilateral");}
+}
+
+if (a==b || b==c || c==a){
+System.out.println("triangle is isoceles");}
+
+if(a!=b && b!=c && c!=a ){
+System.out.println("triangle is scalene");}
